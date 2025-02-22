@@ -1,0 +1,74 @@
+{
+    "User" : {
+        "uid": "214214124124",
+        "name": "John Smith",
+        "email": "johnsmith@gmail.com",
+        "phoneNumber": "+1-555-555-5555",
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "zipCode": "12345",
+            "location": ""
+        },
+        "role": "Receiver",
+        "category": "User",
+        "fcmToken": "1354ewrwdfr342tfewdfew",
+        "profileImage": "https://res.cloudinary.com/dgeaqllzr/image/upload/v1738719428/e1kpn7ybfobnznzcwtwf.jpg",
+        "rating": "4.3",
+        "createdAt": "2024-06-10T04:47:48.502+00:00",
+        "updatedAt": "2024-06-10T04:47:48.502+00:00"
+    },
+
+    "Food": {
+        "user": "666685747c52daa6a84ce63f",
+        "title": "Tomatoes",
+        "description": "Fresh, creamy, and tasty tomatoes.",
+        "quantity": "10",
+        "category": "Vegetable",
+        "location": "https://googlemaps.com/",
+        "imageURL": "https://res.cloudinary.com/dgeaqllzr/image/upload/v1738719428/e1kpn7ybfobnznzcwtwf.jpg",
+        "isUrgent": "true",
+        "dietryRestric": "None",
+        "price": "2.99",
+        "unit": "lb",
+        "createdAt": "2024-06-10T04:47:48.502+00:00",
+        "updatedAt": "2024-06-10T04:47:48.502+00:00",
+        "expiresAt" : "2024-06-10T04:47:48.502+00:00",
+        "comments": [
+            {
+                "user": "214214124124",
+                "text": "I love these tomatoes!",
+                "createdAt": "2024-06-10T04:47:48.502+00:00"
+            }
+        ]
+    },
+
+    "Reservation": {
+        "Food": "666685747c52daa6a84ce63f",
+        "user": "666685747c52daa6a84ce63f",
+        "location": "https://googlemaps.com/",
+        "dateTime": "2024-06-10T04:47:48.502+00:00",
+        "quantity": "2",
+        "status": "Reserved"
+    },
+
+    "Notifications": {
+        "user": "666685747c52daa6a84ce63f",
+        "food": "666685747c52daa6a84ce63f",
+        "title": "Your Tomatoes are Ready!",
+        "body": "You reserved 2 tomatoes at 10 AM.",
+        "createdAt": "2024-06-10T04:47:48.502+00:00",
+        "isRead": "true"
+    },
+
+    "UserStats": {
+        "user": "666685747c52daa6a84ce63f",
+        "totalDonations": "5",
+        "totalClaims": "4",
+        "badges": [
+            {"title": "FoodHero"}
+        ],
+        "createdAt": "2024-06-10T04:47:48.502+00:00"
+    }
+}
