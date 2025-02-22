@@ -9,7 +9,6 @@
 - **User Authentication**: A secure login and registration system for users and businesses.
 - **Surplus Food Categories**: Organize food listings by type (e.g., vegetables, fruits, dietary restriction, prepared meals) for easy browsing.
 - **User Ratings and Reviews**: Allow users to rate and review businesses for the food they collect.
-- **Notifications**: Push notifications for users when new surplus food is listed in their area.
 - **Popup Modal for Listings**: When users click on a food item in the list, a popup modal displays more details, including food description, pickup instructions, comment section, and more.
 
 ## 🛠️ Tech Stack
@@ -18,8 +17,7 @@
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Authentication**: Firebase Authentication
-- **Notifications**: Firebase Cloud Messaging (FCM)
-
+  
 ## 🚀 Installation
 
 1. Clone the repository:
