@@ -19,7 +19,7 @@
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Authentication**: Firebase Authentication
-- **Deployment**: Heroku
+  
 ---
 
 ## 🚀 Installation
