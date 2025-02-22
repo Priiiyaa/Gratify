@@ -15,7 +15,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, Tailwind CSS
+- **Frontend**: React
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Authentication**: Firebase Authentication
@@ -26,7 +26,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/gratify.git
+   git clone https://github.com/priiiyaa/gratify.git
 
 2. Navigate to the project directory
    ```bash
@@ -40,6 +40,7 @@
    ```bash
    MONGO_URI=your_mongodb_uri
    FIREBASE_API_KEY=your_firebase_api_key
+  
 5. Start the development server
     ```bash
     npm start
